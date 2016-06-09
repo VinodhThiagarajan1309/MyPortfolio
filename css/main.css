@@ -56,6 +56,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.portal-logo {
+   max-width: 8%;
+}
+
 .navbar-default {
     box-shadow: none;
     background-color: transparent;
@@ -146,6 +150,8 @@ section#projects{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
 
 section#contact{
     height: 950px;
@@ -302,66 +308,19 @@ footer{
     *zoom: 1;
 }
 
-/* ==========================================================================
-   Print styles
-   ========================================================================== */
 
-@media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
+/*Map CSS*/
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
+section#mapSection{
+    height: 400px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
+ html, body {height:100%}
 
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+#map , #temp2 {height: 100%;}
+.mapContainer,.mapRow , .mapCol{
+    height: 100%;
 }
