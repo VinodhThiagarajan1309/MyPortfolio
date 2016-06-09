@@ -51,7 +51,7 @@ function initializeMap() {
   var locations;
 
   var mapOptions = {
-    disableDefaultUI: true
+    //disableDefaultUI: true
   };
 
   /* 
@@ -144,7 +144,8 @@ function initializeMap() {
   window.mapBounds = new google.maps.LatLngBounds();
 
   // locations is an array of location strings 
-  locations =       ["Thiagarajar Engineering College ,Madurai ",
+  locations =       ["TVS Lakshmi Matriculation Higher Secondary School , Madurai",
+                     "Thiagarajar Engineering College ,Madurai ",
                      "Global Education Center Infosys , Mysore",
                      "Infosys Limited , Sholinganallur ,Chennai",
                      "Infosys Limited , Mahindra City , Chennai ",
@@ -172,7 +173,7 @@ window.addEventListener('resize', function(e) {
 
 
 smoothScroll.init({
-    speed: 1000, // Integer. How fast to complete the scroll in milliseconds
+    speed: 500, // Integer. How fast to complete the scroll in milliseconds
     easing: 'easeInOutCubic', // Easing pattern to use
     updateURL: true, // Boolean. Whether or not to update the URL with the anchor hash on scroll
     offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
