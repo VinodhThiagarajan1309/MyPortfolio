@@ -39,6 +39,9 @@ function initializeMap() {
 
   var locations;
 
+  var mapOptions = {
+  }
+
   /* 
   For the map to be displayed, the googleMap var must be
   appended to #mapDiv in resumeBuilder.js. 
