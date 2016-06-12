@@ -141,6 +141,7 @@
     }
 
     div.container>h3,
+    .subtTitles,
     .mapText,
     .captionText,
     .captionText>a {
@@ -148,6 +149,7 @@
     }
 
     .mapText:after,
+    .subtTitles:after,
     div.container>h3:after {
         content: "";
         height: 3px;
@@ -244,6 +246,10 @@
     .mapRow,
     .mapCol {
         height: 100%;
+    }
+
+    .groomedImg{
+        width: 50%;
     }
     /* ==========================================================================
        Media Queries
@@ -345,11 +351,11 @@
         }
 
         section#projects {
-            height: 500px;
+            height: 900px;
         }
 
         section#places {
-            height: 500px;
+            height: 900px;
         }
 
         div.aboutContainer,
@@ -364,6 +370,6 @@
         .mapRow,
         .mapCol,
         #map {
-            height: 100%;
+            height: 80%;
         }
     }
