@@ -7,6 +7,8 @@
   * Chrome Browser - To render the output
   * Sublime Text 3
   * Chrome Developer Tools
+  * https://validator.w3.org/ - To validate your HTML
+  * https://jigsaw.w3.org/css-validator/validator - To Validate your CSS
   
 ## How to build a page like this - [Click Here](http://vinodhthiagarajan1309.github.io/)
 
