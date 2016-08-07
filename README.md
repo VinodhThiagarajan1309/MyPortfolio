@@ -18,7 +18,7 @@
   
   ![Boiler Plate Image](http://s20.postimg.org/c1xtbqw3x/Boiler_Plate.jpg)
   
-  * Another useful site I used is [shoelace.io](shoelace.io). You should understand the concepts of grids before you use this site. 
+  * Another site I used is [shoelace.io](shoelace.io). You should understand the concepts of grids before you use this site. 
   First read about it in [http://getbootstrap.com/css/#grid](http://getbootstrap.com/css/#grid) from the bootstarp page itself. Since bootstrap is mobile
   first , I choose the mobile to define my layout and then work on the other displays. Remember one fact " A row has 12 sections".
   Once you have decided how you want your layout you can generate it. Since we are building a HTML page you can use the HTML code from this screen.
